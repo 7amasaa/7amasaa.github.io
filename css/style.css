@@ -40,7 +40,8 @@ src: url(" ../fonts/Alexana Neue.ttf");}
 
 .header button {display: block;
                  margin: 20px auto;
-                border-radius: 10px;}
+                border-radius: 10px;
+                box-shadow: 0 0 2px 3px #62969e;}
 
  .center-block1 {    background-color: #fff0;
     border: 1px solid #FFF;
@@ -353,7 +354,7 @@ src: url(" ../fonts/Alexana Neue.ttf");}
 @media (max-width: 420px) {.header {height: 100%}
 	                       .head1 {padding: 20%}
 	                       .navbar {background: #343a40}
-	                       .header form h2 {font-size: 24px;}
+	                       .header form h2 {font-size: 23px;}
                             .cnt1 {display: flex;
                                   justify-content: center;
                                   align-items: center;
