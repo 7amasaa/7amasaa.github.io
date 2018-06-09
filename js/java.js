@@ -9,7 +9,7 @@ $(window).scroll(function(){
 	
 	
 		
-		var sticky = $('.bottom').offset().top;
+		var sticky = $('.social-section').offset().top;
 		
 		if ($(window).scrollTop() > sticky)
 			{
