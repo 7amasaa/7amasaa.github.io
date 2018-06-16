@@ -2,13 +2,15 @@
 
 body {}
 
+a:hover {color:#fff;  }
+
 .navbar {background: rgba(0, 0, 0, 0);
     z-index: 99;
     position: absolute;
     width: 100%;
     transition: all 0.5s ease-in-out}
 
-.active {color: #ff7006}
+.navbar .active {color: #ff7006}
 
 .scrolled {background: #ccc;
            position: fixed;
@@ -17,7 +19,7 @@ body {}
            width: 100%}
 
 .backgrounda {
-  height: 720px;
+  height: 700px;
 	background:no-repeat center fixed;
 	background-size: 100% 100%;
 	background-attachment:fixed;
@@ -47,7 +49,7 @@ body {}
  }
 
 .last-background {
-  min-height: 720px;
+  min-height: 700px;
 	background: url("https://static.wixstatic.com/media/5ae58bc939e44a8c8ac0dcafa8a5eb10.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/5ae58bc939e44a8c8ac0dcafa8a5eb10.webp") no-repeat center fixed;
 	background-size: 100% 100%;
 	background-attachment:fixed;
@@ -73,7 +75,7 @@ body {}
 
 .headtit h1 {font-family: 'Cinzel Decorative', cursive;
              font-weight: 900;
-             font-size: 5em;}
+             font-size: 5rem;}
 
 .headtit h1 span {color:#ff7006}
 
@@ -186,6 +188,16 @@ body {}
     display: inline;
     padding: 5px 0px 10px 5px;
     cursor: pointer;}
+
+.search h6 {    background-color: #ff7006;
+    color: #FFF;
+    width: 60px;
+    position: absolute;
+    right: 0;
+    display: none;
+    padding: 2px 0 5px 15px;
+	cursor: pointer;
+    }
 
 .search h5:hover {background: #ff7006d4}
 .tab1 {perspective: 2000px;}
@@ -308,6 +320,13 @@ body {}
 
 
 
+@media (max-width: 460px){ .backgrounda {height: 470px}
+	                       .headtit p {font-size: 13px}
+	                       .headtit h1 {font-size: 3rem}
+							.search h5 {display: none;}
+							.search h6 {display: inline;}}
+
+
 
 @media (max-width: 767px) {#video-background {right: 0;
 											  left: -50%;
@@ -316,6 +335,18 @@ body {}
 											  z-index: -100;}}
 
 
+@media (min-width: 768px){.backgrounda {height: 500px}
+	                       .headtit h1 {font-size: 4rem}}
+
+
+@media (min-width: 992px){.backgrounda {height: 600px}
+	                       .headtit p {font-size: 20px}
+	                       .headtit h1 {font-size: 5rem}}
+
+
+@media (min-width: 1200px){.backgrounda {height: 700px}
+		                   .headtit p {font-size: 24px}
+	                       .headtit h1 {font-size: 7rem}}
 
 
 /*   Start Login  */
@@ -412,12 +443,16 @@ body {}
   text-decoration: none;
 }
 
+ 
+
 .login-btn{
   border-radius: 4px;
   text-align: center;
-  background: #ff7006;
+  background: rgba(255,112,6,0.60);
   color: #fff;
 }
+
+.login-btn:hover {background: rgba(255,112,6,0.20);}
 
 .other-options{
   position: absolute;
