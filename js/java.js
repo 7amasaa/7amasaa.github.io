@@ -1,10 +1,7 @@
 
 jQuery(document).ready(function($) {
 	"use strict";
-	$("body").niceScroll({
-      cursorcolor:"#17a2b8",
-      cursorwidth:"12px"
-      });
+	
 $(window).scroll(function(){
 	
 	
