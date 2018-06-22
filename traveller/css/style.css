@@ -41,7 +41,7 @@ a:hover {color:#fff;  }
 
 .backgroundc {
   min-height: 720px;
-	background: url("https://static.wixstatic.com/media/5ae58bc939e44a8c8ac0dcafa8a5eb10.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/5ae58bc939e44a8c8ac0dcafa8a5eb10.webp") no-repeat center fixed;
+	background: url(" ../img/view.png") no-repeat center fixed;
 	background-size: 100% 100%;
 	background-attachment:fixed;
 	position:relative;
@@ -50,7 +50,7 @@ a:hover {color:#fff;  }
 
 .last-background {
   min-height: 700px;
-	background: url("https://static.wixstatic.com/media/5ae58bc939e44a8c8ac0dcafa8a5eb10.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/5ae58bc939e44a8c8ac0dcafa8a5eb10.webp") no-repeat center fixed;
+	background: url(" ../img/night-sky.jpg") no-repeat center fixed;
 	background-size: 100% 100%;
 	background-attachment:fixed;
 	position:relative;
@@ -200,7 +200,8 @@ a:hover {color:#fff;  }
     }
 
 .search h5:hover {background: #ff7006d4}
-.tab1 {perspective: 2000px;}
+.tab1 {-moz-perspective: 2000px;
+       perspective: 2000px;}
 
 .tab1 .form-control {      display: inline;
 	                        
@@ -237,8 +238,11 @@ a:hover {color:#fff;  }
 
 
 .reflect {position: relative;
+	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	transition: all 1s ease-in-out;}
+	-moz-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+    -moz-backface-visibility: hidden;}
 
 .front {position: absolute;
         z-index: 2;}
@@ -381,7 +385,6 @@ a:hover {color:#fff;  }
 
 .mobile-screen{
   position: relative;
-	top: 10%;
   margin: auto;
   width: 400px;
   height: 600px;
