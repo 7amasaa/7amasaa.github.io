@@ -108,13 +108,7 @@ var zindex = 0;
 	
 	
 	
-	$(window).load(function(){
-		
-		$('.sk-circle').fadeOut(1000, function(){
-			
-			$(this).parent().hide();
-		});
-	});
+	
 	
 	
 	
