@@ -12,7 +12,7 @@ a:hover {color:#fff;  }
 
 .navbar .active {color: #ff7006}
 
-.scrolled {background: #ccc;
+.scrolled {background: #c6eaee;
            position: fixed;
 	       top: 0;
            z-index: 99;
@@ -20,7 +20,7 @@ a:hover {color:#fff;  }
 
 .backgrounda {
   height: 700px;
-	background:no-repeat center fixed;
+	background: no-repeat center fixed;
 	background-size: 100% 100%;
 	background-attachment:fixed;
 	position:relative;
@@ -49,7 +49,7 @@ a:hover {color:#fff;  }
  }
 
 .last-background {
-  min-height: 700px;
+  min-height: 900px;
 	background: url(" ../img/night-sky.jpg") no-repeat center fixed;
 	background-size: 100% 100%;
 	background-attachment:fixed;
@@ -248,7 +248,8 @@ a:hover {color:#fff;  }
         z-index: 2;}
 
 .back {z-index: 1;
-       transform: rotateY(180deg);}
+       transform: rotateY(180deg);
+       backface-visibility: hidden;}
 
 .reflect1 {transform: rotateY(180deg)}
 
@@ -333,7 +334,8 @@ a:hover {color:#fff;  }
 
 .modal-footer button {background: rgba(255,112,6,0.60)}
 
-@media (max-width: 460px){ .backgrounda {height: 470px}
+@media (max-width: 460px){ .backgrounda {height: 600px;
+	                                     background: url(../img/view22.png)no-repeat fixed}
 	                       .headtit p {font-size: 13px}
 	                       .headtit h1 {font-size: 3rem}
 							.search h5 {display: none;}
@@ -346,6 +348,8 @@ a:hover {color:#fff;  }
 							.tabs {width: 95%}
 							.modal-body .mobile-screen {width: 320px;
 	                                        height: 500px;}
+	.last-background {min-height: 700px;}
+	#video-background {display: none;}
 }
 
 
