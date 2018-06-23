@@ -200,14 +200,13 @@ a:hover {color:#fff;  }
     }
 
 .search h5:hover {background: #ff7006d4}
+
 .tab1 {-moz-perspective: 2000px;
        perspective: 2000px;}
 
 .tab1 .form-control {      display: inline;
-	                        
 	                         box-shadow: none;
                               width: 80%;
-                             
                             border: none;}
 
 
@@ -245,7 +244,8 @@ a:hover {color:#fff;  }
     -moz-backface-visibility: hidden;}
 
 .front {position: absolute;
-        z-index: 2;}
+        z-index: 2;
+        backface-visibility: hidden;}
 
 .back {z-index: 1;
        transform: rotateY(180deg);
