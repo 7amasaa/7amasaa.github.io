@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 	"use strict";
 	$("body").niceScroll({
-      cursorcolor:"#d1eafd",
+      cursorcolor:"#D1B57C",
       cursorwidth:"12px"
       });
   function scrollToAbout(sectId) {
@@ -324,6 +324,17 @@ $('.navbar li a').click(function(e){
 		
 		
 	});
+
+ var $ppc = $('.progress-pie-chart'),
+    percent = parseInt($ppc.data('percent')),
+    deg = 360*percent/100;
+  if (percent > 50) {
+    $ppc.addClass('gt-50');
+  }
+  $('.ppc-progress-fill').css('transform','rotate('+ deg +'deg)');
+  $('.ppc-percents span').html(percent+'%');
+
+
 	
 	$(window).scroll(function(){
 		"use strict";
@@ -338,4 +349,15 @@ $('.navbar li a').click(function(e){
 				$('.navbar li a[data-scroll="' + blockID + '"]').addClass('active');
 			}	
 		});
+		
+		
+		
 	});
+
+
+
+
+
+
+
+
