@@ -4,42 +4,7 @@ jQuery(document).ready(function($) {
       cursorcolor:"#D1B57C",
       cursorwidth:"12px"
       });
-  function scrollToAbout(sectId) {
-	 
-    $("html, body").animate({ scrollTop: $(sectId).offset().top }, "slow");
-  }
-
-  $("#link").click(function() {
-    var sectName = "#about";
-    scrollToAbout(sectName);
-  });
-
-  $("#abt").click(function() {
-    var sectName = "#about";
-    scrollToAbout(sectName);
-  });
-  $("#svc").click(function() {
-    var sectName = "#services";
-    scrollToAbout(sectName);
-  });
-
-  $("#ptf").click(function() {
-    var sectName = "#portfolio";
-    scrollToAbout(sectName);
-  });
-  $("#achv").click(function() {
-    var sectName = "#achievements";
-    scrollToAbout(sectName);
-  });
-  $("#home").click(function() {
-    var sectName = "#sect";
-    scrollToAbout(sectName);
-  });
   
-  $("#askFaran").click(function() {
-    var sectName = "#sect";
-    scrollToAbout(sectName);
-  });
 
   //wow js animation
   // Animation section
@@ -316,43 +281,13 @@ $('.navbar li a').click(function(e){
 	
 	
 	
-	$('.navbar li a').click(function(){
-		"use strict";
-		$('.navbar li a').removeClass('active');
-		
-		$(this).addClass('active');
-		
-		
-	});
+	
 
- var $ppc = $('.progress-pie-chart'),
-    percent = parseInt($ppc.data('percent')),
-    deg = 360*percent/100;
-  if (percent > 50) {
-    $ppc.addClass('gt-50');
-  }
-  $('.ppc-progress-fill').css('transform','rotate('+ deg +'deg)');
-  $('.ppc-percents span').html(percent+'%');
+ 
 
 
 	
-	$(window).scroll(function(){
-		"use strict";
-		$('.section-spacing').each(function(){
-			
-			if ($(window).scrollTop() > $(this).offset().top - $('.navbar').innerHeight() ){
-				
-			var blockID = $(this).attr('id');
-				
-				$('.navbar li a').removeClass('active');
-				
-				$('.navbar li a[data-scroll="' + blockID + '"]').addClass('active');
-			}	
-		});
-		
-		
-		
-	});
+	
 
 
 
