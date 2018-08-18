@@ -267,9 +267,8 @@ $('.container1').click(function(){
 	});
 
 
-$('.navbar li a').click(function(e){
+$('.navbar li a').click(function(){
 		"use strict";
-		e.preventDefault();
 		
 		$('html,body').animate({
 			

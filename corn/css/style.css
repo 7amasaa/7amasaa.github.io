@@ -261,9 +261,13 @@ b {
 .rate h5 .fa {display: inherit;}
 /*services ends*/
 
+.vote {
+    z-index: 2;
+    display: flex;}
 
+.vote h5 {display: flex;}
 
-
+.vote h5 .fa {display: inherit;}
 
 /*================================= poster card =================================*/
 
@@ -321,6 +325,7 @@ a {cursor: pointer}
 .details .btn-outline-light {
     background-color: #bf994b;
     border-color: #D1B57C;
+	color: #000;
 }
 /*poster card ends*/
 
@@ -349,6 +354,10 @@ a {cursor: pointer}
 .actor h5 {font-size: 1rem;}
 
 .actor .card {margin: 10px 0}
+
+.single h5 {font-size: 1rem;}
+
+.single .card {margin: 10px 0}
 
 /*======================================== End actors=============================*/
 
@@ -494,6 +503,8 @@ a {cursor: pointer}
 	
 	
 }
+
+@media only screen and (max-width: 768px) {.pad {padding-top: 12%}}
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
   #banner {
