@@ -327,6 +327,9 @@ a {cursor: pointer}
     border-color: #D1B57C;
 	color: #000;
 }
+
+.tex {color: #000;
+      text-decoration: none;}
 /*poster card ends*/
 
 /*======================================== Start actors=============================*/
