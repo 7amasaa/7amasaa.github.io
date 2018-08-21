@@ -138,9 +138,9 @@ body {background-color: #f1f1f1;}
  .buttons {margin-left: 20px;
 	      font-family: 'Cinzel Decorative', cursive;
           font-weight: 900;
-          background-color: wheat;
+          background-color: rgba(0,0,0,0.00);
           border-radius: 10px;
-          border: 2px solid #fff;}
+          border: 2px solid #000;}
 
 .buttons1 {font-family: 'Cinzel Decorative', cursive;
           font-weight: 700;
