@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/hover-min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<title>Caramel Corn</title>
+	<script src="js/java.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/java.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+              new WOW().init();
+    </script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+<body ng-app="myApp">
+	
+	<nav class="navbar navbar-expand-md navbar-light customNav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container1" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+  </button>
+		<a id="askFaran" class="navbar-brand" href="#/!"><img src="img/logo.png" width="85" height="50" alt=""/></a>
+		
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+      <li id="home" class="nav-item">
+        <a class="nav-link" href="#!movies" >Movies</a>
+      </li>
+      <li id="abt" class="nav-item">
+        <a class="nav-link" href="#" >Tv Shows</a>
+      </li>
+       <li id="svc" class="nav-item">
+        <a class="nav-link" href="#!actors">Actors</a>
+      </li>
+    </ul>
+	  
+	  <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Go</button>
+    </form>
+	  
+  </div>
+</nav>
+
+<!-- above is menu -->
+<section id="sect" class="header">
+  <div class="banner-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 cnt">
+          <div class="banner-inner">
+            <h1 class="custColor cd-headline clip is-full-width">
+								<span class="cd-words-wrapper">
+									<b>Do You <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> Movies</b>
+									<b class="is-visible">See What Up Coming</b>
+									<b>And Top Rated</b>
+								</span>
+							</h1>
+
+          </div>
+
+        </div>
+        <ul class="social-mdedia">
+          <li class="wow bounceInLeft" data-wow-delay="1s"><a href="https://www.facebook.com/mohamed.osama.96558061" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li class="wow bounceInLeft" data-wow-delay="0.5s"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li class="wow bounceInRight" data-wow-delay="0.7s"><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+          <li class="wow bounceInRight" data-wow-delay="1.2s"><a href="https://github.com/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+        </ul>
+        <ul class="social-mdedia">
+          <li>
+            <a href="#about" id="link" class="about">
+
+              <span class=" goToAbout ">
+        
+      <i class="fa fa-arrow-circle-down"></i>
+      </span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <!--end container-->
+  </div>
+</section>
+
+<ng-view></ng-view>
+
+<script>
+var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+        templateUrl : "corn.html"
+    })
+    .when("/movies", {
+        templateUrl : "movies.html"
+    })
+    .when("/actors", {
+        templateUrl : "actors.html"
+    })
+    .when("/single", {
+        templateUrl : "single.html"
+    })
+});
+</script>
+
+
+</body>
+</html>
