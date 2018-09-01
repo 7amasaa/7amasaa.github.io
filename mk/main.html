@@ -26,14 +26,14 @@
 	<!-- End Head -->
 	
 	<!-- Start About -->
-	<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+	<div class="slideshow-container">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li onclick="currentSlide(1)" class="dot active"></li>
+    <li onclick="currentSlide(2)" class="dot"></li>
+    <li onclick="currentSlide(3)" class="dot"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active fadee">
       <div class="abt">
 		  <div class="row">
 		<div class="col-sm-6">
@@ -61,7 +61,7 @@
 			  </div>
 		</div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item fadee">
       <div class="abt">
 		  <div class="row">
 		<div class="col-sm-6">
@@ -95,7 +95,7 @@
 			  </div>
 		</div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item fadee">
       <div class="abt">
 		  <div class="row">
 		<div class="col-sm-6">
@@ -142,14 +142,8 @@
 		</div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 	<!-- End About -->
 	
@@ -162,7 +156,7 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="section-title text-center">
-          <h2 class="brdr fonty">Services</h2>
+          <h2 class="brdr fonty pad1">Services</h2>
         </div>
       </div>
     </div>
@@ -272,7 +266,7 @@
 		<div class="row">
       <div class="col-xs-12">
         <div class="section-title text-center">
-          <h2 class="brdr fonty">Portfolio</h2>
+          <h2 class="brdr fonty pad1">Portfolio</h2>
         </div>
       </div>
     </div>
@@ -378,7 +372,7 @@
 	<div class="row">
       <div class="col-xs-12">
         <div class="section-title text-center">
-          <h2 class="brdr fonty">Contact Me</h2>
+          <h2 class="brdr fonty pad1">Contact Me</h2>
         </div>
       </div>
     </div>
@@ -420,10 +414,10 @@
 			
 				<div class="col-sm-1"></div>
 				
-			<div class="footer col-sm-6">
+			<div class="col-sm-6">
 			<h4 class="text-center"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Location</h4>
 		
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.218134363459!2d31.205854629241685!3d30.069187898867074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDA0JzA5LjEiTiAzMcKwMTInMjMuMSJF!5e0!3m2!1sen!2sus!4v1532190311219" class="cnt" width="340" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.218134363459!2d31.205854629241685!3d30.069187898867074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDA0JzA5LjEiTiAzMcKwMTInMjMuMSJF!5e0!3m2!1sen!2sus!4v1532190311219" class="cnt scl" width="340" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 			
 			</div>
 			
