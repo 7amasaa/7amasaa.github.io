@@ -387,7 +387,7 @@ a{cursor: pointer;
 	z-index: 4;
 	border: 1px solid #fff;
 	border-radius: 10px;
-        }
+       margin-bottom: 10px; }
 
 .footer b {color: #19a2b9;
           font-size: 16px;
@@ -414,7 +414,11 @@ a{cursor: pointer;
 						   .abt {height: 720px;}
 	                       .backgroundB {height: 1720px;}
                            .img-thumbnail {top: 80%;}
-						   .hero-text h1 {font-size: 50px;}}
+						   .hero-text h1 {font-size: 50px;}
+						   .backgroundE {
+								background: url(" ../img/imac.jpg") repeat center fixed;
+
+							 }}
 
 
 @media (min-width: 768px){.abt {height: 540px;}}
