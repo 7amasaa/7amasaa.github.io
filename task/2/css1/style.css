@@ -1,0 +1,84 @@
+body {background: url(../img/bg.png);
+      height: 100vh;
+      background-size: cover}
+
+
+
+.chart {
+    position: relative;
+    width: 60%;
+    height: 20%;
+    top: 200%;
+    left: 5%;
+    overflow: hidden;
+}
+
+
+
+
+.graph  {width: 100%;
+          height: 100%;}
+
+
+.bar {
+    position: absolute;
+    top: 10%;
+    height: 100px;
+    left: -100%;
+    width: 75%;
+}
+
+
+
+.btns {
+    position: fixed;
+    bottom: 100px;
+    right: 2%;
+}
+
+
+.subinfo {margin: 0 10px;}
+
+.subinfo i {
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: #cedeb3;
+    border: 2px solid #51463d;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #246236;
+}
+
+.subinfo i:hover {color: #FFF;
+	              background-color: #51463d
+           }
+
+
+
+.modal-content {height: 600px;
+                background: url(../img/ref-txt.png);
+                background-size: 100% 100%;
+                border: none}
+
+.txt {
+    text-align: center;
+    margin: 80px 125px 0 125px;
+    color: #fff;
+}
+
+.foot {
+    position: fixed;
+    bottom: 2%;
+	width: 100%;}
+
+.link {display: flex;
+       justify-content: center;
+       align-items: center;}
+
+
+
+
+
+

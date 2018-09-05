@@ -1,0 +1,133 @@
+body {background: url(  ../img2/bg.jpg) no-repeat;
+      height: 100vh;
+      background-size: 100% 100%}
+
+
+
+.chart {
+    position: relative;
+    width: 55%;
+    height: 55%;
+    top: 35%;
+    left: 4%;
+    overflow: hidden;
+}
+
+
+
+
+.graph  {width: 100%;
+          height: 100%;}
+
+
+.bar {
+    position: absolute;
+    bottom: 20%;
+    height: 70%;
+    left: 20%;
+    width: 40%;
+	animation: bar1 3s linear;
+}
+
+.bar2 {
+    position: absolute;
+    bottom: 20%;
+    height: 50%;
+    right: 0%;
+    width: 40%;
+	animation: bar2 3s linear;
+}
+
+
+
+.btns {
+    position: fixed;
+    bottom: 100px;
+    right: 2%;
+}
+
+
+.subinfo {margin: 0 10px;}
+
+.subinfo i {
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: #cedeb3;
+    border: 2px solid #51463d;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #246236;
+}
+
+.subinfo i:hover {color: #FFF;
+	              background-color: #51463d
+           }
+
+
+
+.modal-content {height: 600px;
+                background: url(../img/ref-txt.png);
+                background-size: 100% 100%;
+                border: none}
+
+.txt {
+    text-align: center;
+    margin: 80px 125px 0 125px;
+    color: #fff;
+}
+
+.foot {
+    position: fixed;
+    bottom: 2%;
+	width: 100%;}
+
+.link {display: flex;
+       justify-content: center;
+       align-items: center;}
+
+
+ 
+
+
+@keyframes bar1{
+  0% {
+    height: 0%;
+  }
+	25% {
+    height: 15%;
+  }
+	50% {
+    height: 30%;}
+	
+	75% {
+    height: 50%;}
+	
+	100% {
+    height: 70%;}
+}
+
+@keyframes bar2{
+  0% {
+    height: 0%;
+  }
+	25% {
+    height: 12.5%;
+  }
+	50% {
+    height: 25%;}
+	
+	75% {
+    height: 37.5%;}
+	
+	100% {
+    height: 50%;}
+}
+
+
+
+
+
+
+
