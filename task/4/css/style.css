@@ -1,0 +1,45 @@
+body{
+  background-color:#BFDFEC;
+    background-repeat:repeat-x;
+ background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg");
+  animation: movement 240s linear infinite; 
+}
+
+@keyframes movement{
+  0% {
+    background-position:0px 0px;
+  }
+  100%{
+    background-position:1920px 0px;
+  }
+}
+
+h2 {padding-top: 100px;
+     color: red}
+
+
+
+.btn {border-radius: 10px;}
+
+.line:after {
+	content: ' ';
+	display: block;
+	width: 550px;
+	height: 5px;
+	background: #000;
+	margin: 20px 10px 0 10px
+}
+
+
+img {position: absolute;
+    top: 140px;
+    left: 180px;}
+
+
+.load {display: none}
+
+
+
+
+
+
