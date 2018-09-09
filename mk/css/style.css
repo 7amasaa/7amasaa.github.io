@@ -260,12 +260,15 @@ a{cursor: pointer;
 
 /************* Start Portfolio ******************/
 
+
+
 .app {
     position: relative;
     padding-top: 22px;
     padding-bottom: 22px;
     margin-bottom: 14px;
 	height: 450px;
+	border-radius: 10px;
 }
 
 .app:hover {box-shadow: 0 0 10px 1px #000;}
@@ -350,6 +353,23 @@ a{cursor: pointer;
 .search-head a:hover {text-decoration: underline;}
 
 
+.cart1 {
+    background-color: #FFF;
+    border: 1px solid #D0D0D0;
+    padding: 0;
+}
+
+
+.app .app-body1 {
+    margin-bottom: 15px;
+    height: 300px;
+}
+
+.app .app-body1  img {
+    width: 100%;
+	height: 100%;
+	border-radius: 10px 10px 0 0;
+}
 
 
 /************* End Portfolio ******************/

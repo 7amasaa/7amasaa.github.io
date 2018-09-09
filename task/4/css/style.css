@@ -63,14 +63,15 @@ a:hover {
     padding-bottom: 22px;
     margin-bottom: 14px;
 	height: 450px;
+	border-radius: 10px;
 }
 
 .app:hover {box-shadow: 0 0 10px 1px #000;}
 
-.cart {
+.cart1 {
     background-color: #FFF;
     border: 1px solid #D0D0D0;
-    padding: 20px 25px;
+    padding: 0;
 }
 
 .app .app-head {
@@ -112,14 +113,15 @@ a:hover {
 	cursor: pointer;
 }
 
-.app .app-body {
-    margin-bottom: 35px;
-    height: 250px;
+.app .app-body1 {
+    margin-bottom: 15px;
+    height: 300px;
 }
 
-.app .app-body  img {
+.app .app-body1  img {
     width: 100%;
 	height: 100%;
+	border-radius: 10px 10px 0 0;
 }
 
 .app-foot {
