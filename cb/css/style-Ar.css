@@ -1,0 +1,36 @@
+.testimonials-img {
+    right: 50%;
+    margin-right: -50px;
+}
+
+.testimonials-blob {
+    right: 80%;
+    transform: rotate(-45deg);
+}
+
+.owl-prev {
+    position: absolute;
+    left: 96%;
+}
+
+
+.owl-next {
+    position: absolute;
+    right: 96%;
+}
+
+.testimonial-carousel .owl-prev {
+	position: absolute;
+    left: 96%;
+}
+
+.testimonial-carousel .owl-next {
+	position: absolute;
+    right: 96%;
+}
+
+
+.contact-form1 .label1 {
+    right: 20px;
+	left: none;
+}
