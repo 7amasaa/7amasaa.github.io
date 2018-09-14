@@ -50,3 +50,10 @@
     right: 20px;
 	left: unset;
 }
+
+@media (max-width: 767px)
+{
+	.backgroundA {height: 90vh;}
+}
+
+
