@@ -51,6 +51,23 @@
 	left: unset;
 }
 
+#toggle {
+    left: -28px;
+}
+
+.navbar ul {text-align: right;}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    border-right: 1px solid #c2b49a;
+	border-left: 0;
+}
+
+.scrolled {
+    left: 0;
+}
+
+
+
 @media (max-width: 767px)
 {
 	.backgroundA {height: 90vh;}
