@@ -10,27 +10,31 @@
 
 .owl-prev {
     position: absolute;
-    left: 96%;
+    right: 0;
+	left: unset;
 }
 
 
 .owl-next {
     position: absolute;
-    right: 96%;
+    left: 0;
+	right: unset;
 }
 
 .testimonial-carousel .owl-prev {
 	position: absolute;
-    left: 96%;
+    left: unset;
+	right: 0;
 }
 
 .testimonial-carousel .owl-next {
 	position: absolute;
-    right: 96%;
+    right: unset;
+	left: 0;
 }
 
 
 .contact-form1 .label1 {
     right: 20px;
-	left: none;
+	left: unset;
 }
