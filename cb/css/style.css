@@ -123,7 +123,8 @@ h2 {font-weight: 900;}
      background: rgba(0,0,0,0.50)}
 
 .txt {padding-top: 20%;
-      color:#c2b49a }
+      color:#c2b49a;
+      text-align: center;}
 
 .btn-outline-light {
     color: #c3b59b;
